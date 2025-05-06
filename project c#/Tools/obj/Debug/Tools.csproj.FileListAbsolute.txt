@@ -1,0 +1,49 @@
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\‏‏מעודכןss - עותק\DotNet2025_2144_3291\bin\Tools.deps.json
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\‏‏מעודכןss - עותק\DotNet2025_2144_3291\bin\Tools.dll
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\‏‏מעודכןss - עותק\DotNet2025_2144_3291\bin\Tools.pdb
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\‏‏מעודכןss - עותק\DotNet2025_2144_3291\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\‏‏מעודכןss - עותק\DotNet2025_2144_3291\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\‏‏מעודכןss - עותק\DotNet2025_2144_3291\Tools\obj\Debug\Tools.AssemblyInfo.cs
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\‏‏מעודכןss - עותק\DotNet2025_2144_3291\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\‏‏מעודכןss - עותק\DotNet2025_2144_3291\Tools\obj\Debug\Tools.dll
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\‏‏מעודכןss - עותק\DotNet2025_2144_3291\Tools\obj\Debug\refint\Tools.dll
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\‏‏מעודכןss - עותק\DotNet2025_2144_3291\Tools\obj\Debug\Tools.pdb
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\‏‏מעודכןss - עותק\DotNet2025_2144_3291\Tools\obj\Debug\ref\Tools.dll
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\שרית ושרי\DotNet2025_2144_3291\bin\Tools.deps.json
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\שרית ושרי\DotNet2025_2144_3291\bin\Tools.dll
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\שרית ושרי\DotNet2025_2144_3291\bin\Tools.pdb
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.csproj.AssemblyReference.cache
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.AssemblyInfo.cs
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.dll
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\refint\Tools.dll
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.pdb
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\ref\Tools.dll
+F:\יד לימודים\c# net\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.dll
+F:\יד לימודים\c# net\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\refint\Tools.dll
+F:\יד לימודים\c# net\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.pdb
+M:\שרית ושרי\DotNet2025_2144_3291\bin\Tools.deps.json
+M:\שרית ושרי\DotNet2025_2144_3291\bin\Tools.dll
+M:\שרית ושרי\DotNet2025_2144_3291\bin\Tools.pdb
+M:\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+M:\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+M:\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.AssemblyInfo.cs
+M:\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+M:\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.dll
+M:\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\refint\Tools.dll
+M:\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.pdb
+M:\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\ref\Tools.dll
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\bin\Tools.deps.json
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\bin\Tools.dll
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\bin\Tools.pdb
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.GeneratedMSBuildEditorConfig.editorconfig
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.AssemblyInfoInputs.cache
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.AssemblyInfo.cs
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.csproj.CoreCompileInputs.cache
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.dll
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\refint\Tools.dll
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.pdb
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\ref\Tools.dll
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\Tools\obj\Debug\Tools.csproj.AssemblyReference.cache

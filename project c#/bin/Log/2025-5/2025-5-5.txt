@@ -1,0 +1,12 @@
+05/05/2025 11:15:41	Dal.CustomerImplementation.Create :	create Customer start
+05/05/2025 11:15:41	Dal.CustomerImplementation.Create :	create Customer end
+05/05/2025 11:15:41	Dal.ProductImplementation.Create :	Create Product start
+05/05/2025 11:15:41	Dal.ProductImplementation.Create :	Create Product end
+05/05/2025 11:15:41	Dal.SaleImplementation.Create :	create sale start
+05/05/2025 11:15:41	Dal.SaleImplementation.Create :	create sale end
+05/05/2025 12:09:38	Dal.CustomerImplementation.Create :	create Customer start
+05/05/2025 12:09:38	Dal.CustomerImplementation.Create :	create Customer end
+05/05/2025 12:09:39	Dal.ProductImplementation.Create :	Create Product start
+05/05/2025 12:09:39	Dal.ProductImplementation.Create :	Create Product end
+05/05/2025 12:09:39	Dal.SaleImplementation.Create :	create sale start
+05/05/2025 12:09:39	Dal.SaleImplementation.Create :	create sale end

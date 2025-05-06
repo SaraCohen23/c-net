@@ -1,0 +1,13 @@
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\ss\DotNet2025_2144_3291\bin\DalList.deps.json
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\ss\DotNet2025_2144_3291\bin\DalList.dll
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\ss\DotNet2025_2144_3291\bin\DalList.pdb
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\ss\DotNet2025_2144_3291\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\ss\DotNet2025_2144_3291\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\ss\DotNet2025_2144_3291\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\ss\DotNet2025_2144_3291\DalList\obj\Debug\DalList.AssemblyInfo.cs
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\ss\DotNet2025_2144_3291\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\ss\DotNet2025_2144_3291\DalList\obj\Debug\DalList.dll
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\ss\DotNet2025_2144_3291\DalList\obj\Debug\refint\DalList.dll
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\ss\DotNet2025_2144_3291\DalList\obj\Debug\DalList.pdb
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\ss\DotNet2025_2144_3291\DalList\obj\Debug\ref\DalList.dll
+T:\יד\שבבים\C# מתקדם\הנחיות הפרויקט\פרויקטים\ss\DotNet2025_2144_3291\DalList\obj\Debug\DalList.csproj.Up2Date

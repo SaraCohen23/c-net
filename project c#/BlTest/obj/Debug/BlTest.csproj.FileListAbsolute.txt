@@ -1,0 +1,16 @@
+M:\שרית ושרי\DotNet2025_2144_3291\bin\BlTest.exe
+M:\שרית ושרי\DotNet2025_2144_3291\bin\BlTest.deps.json
+M:\שרית ושרי\DotNet2025_2144_3291\bin\BlTest.runtimeconfig.json
+M:\שרית ושרי\DotNet2025_2144_3291\bin\BlTest.dll
+M:\שרית ושרי\DotNet2025_2144_3291\bin\BlTest.pdb
+M:\שרית ושרי\DotNet2025_2144_3291\BlTest\obj\Debug\BlTest.csproj.AssemblyReference.cache
+M:\שרית ושרי\DotNet2025_2144_3291\BlTest\obj\Debug\BlTest.GeneratedMSBuildEditorConfig.editorconfig
+M:\שרית ושרי\DotNet2025_2144_3291\BlTest\obj\Debug\BlTest.AssemblyInfoInputs.cache
+M:\שרית ושרי\DotNet2025_2144_3291\BlTest\obj\Debug\BlTest.AssemblyInfo.cs
+M:\שרית ושרי\DotNet2025_2144_3291\BlTest\obj\Debug\BlTest.csproj.CoreCompileInputs.cache
+M:\שרית ושרי\DotNet2025_2144_3291\BlTest\obj\Debug\BlTest.dll
+M:\שרית ושרי\DotNet2025_2144_3291\BlTest\obj\Debug\refint\BlTest.dll
+M:\שרית ושרי\DotNet2025_2144_3291\BlTest\obj\Debug\BlTest.pdb
+M:\שרית ושרי\DotNet2025_2144_3291\BlTest\obj\Debug\BlTest.genruntimeconfig.cache
+M:\שרית ושרי\DotNet2025_2144_3291\BlTest\obj\Debug\ref\BlTest.dll
+M:\שרית ושרי\DotNet2025_2144_3291\BlTest\obj\Debug\BlTest.csproj.CopyComplete

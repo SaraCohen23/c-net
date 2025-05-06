@@ -1,0 +1,28 @@
+19/01/2025 11:25:21	Dal.CustomerImplement.Create :	create customer start
+19/01/2025 11:25:21	Dal.CustomerImplement.Create :	create customer end
+19/01/2025 11:25:21	Dal.ProductImplement.Create :	Create Product start
+19/01/2025 11:25:21	Dal.ProductImplement.Create :	Create Product end
+19/01/2025 11:25:21	Dal.SaleImplement.Create :	create sale start
+19/01/2025 11:25:21	Dal.SaleImplement.Create :	create sale end
+19/01/2025 11:25:28	Dal.SaleImplement.Read :	read Sale start
+19/01/2025 11:25:28		Dal.SaleImplement.Read :	id not found
+19/01/2025 11:25:47	Dal.CustomerImplement.Create :	create customer start
+19/01/2025 11:25:47	Dal.CustomerImplement.Create :	create customer end
+19/01/2025 11:25:47	Dal.ProductImplement.Create :	Create Product start
+19/01/2025 11:25:47	Dal.ProductImplement.Create :	Create Product end
+19/01/2025 11:25:47	Dal.SaleImplement.Create :	create sale start
+19/01/2025 11:25:47	Dal.SaleImplement.Create :	create sale end
+19/01/2025 11:25:52	Dal.ProductImplement.Read :	read Product start
+19/01/2025 11:25:52		Dal.ProductImplement.Read :	id not found
+19/01/2025 11:26:00	Dal.CustomerImplement.Create :	create customer start
+19/01/2025 11:26:00	Dal.CustomerImplement.Create :	create customer end
+19/01/2025 11:26:00	Dal.ProductImplement.Create :	Create Product start
+19/01/2025 11:26:00	Dal.ProductImplement.Create :	Create Product end
+19/01/2025 11:26:00	Dal.SaleImplement.Create :	create sale start
+19/01/2025 11:26:00	Dal.SaleImplement.Create :	create sale end
+19/01/2025 11:26:22	Dal.SaleImplement.ReadAll :	read all sale start
+19/01/2025 11:26:22	Dal.SaleImplement.ReadAll :	read all sale end
+19/01/2025 11:26:30	Dal.ProductImplement.ReadAll :	read all Product start
+19/01/2025 11:26:30	Dal.ProductImplement.ReadAll :	read all Product end
+19/01/2025 11:26:36	Dal.ProductImplement.Read :	read Product start
+19/01/2025 11:26:36	Dal.ProductImplement.Read :	read Product end
