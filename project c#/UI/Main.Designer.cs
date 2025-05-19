@@ -30,15 +30,14 @@
         {
             manager = new Button();
             cashier = new Button();
-            
             SuspendLayout();
             // 
             // manager
             // 
             manager.ForeColor = SystemColors.MenuHighlight;
-            manager.Location = new Point(518, 156);
+            manager.Location = new Point(505, 156);
             manager.Name = "manager";
-            manager.Size = new Size(75, 23);
+            manager.Size = new Size(123, 95);
             manager.TabIndex = 0;
             manager.Text = "מנהל";
             manager.UseVisualStyleBackColor = true;
@@ -47,15 +46,14 @@
             // cashier
             // 
             cashier.ForeColor = SystemColors.MenuHighlight;
-            cashier.Location = new Point(368, 156);
+            cashier.Location = new Point(241, 156);
             cashier.Name = "cashier";
-            cashier.Size = new Size(75, 23);
+            cashier.Size = new Size(120, 95);
             cashier.TabIndex = 1;
             cashier.Text = "קופאי";
             cashier.UseVisualStyleBackColor = true;
             cashier.Click += button2_Click;
             // 
-            
             // Main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -66,7 +64,6 @@
             Name = "Main";
             Text = "Main";
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion

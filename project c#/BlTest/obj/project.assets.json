@@ -128,11 +128,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "M:\\c# net\\שרית ושרי\\DotNet2025_2144_3291\\BlTest\\BlTest.csproj",
+      "projectUniqueName": "M:\\c# net\\שרית ושרי\\project c#\\BlTest\\BlTest.csproj",
       "projectName": "BlTest",
-      "projectPath": "M:\\c# net\\שרית ושרי\\DotNet2025_2144_3291\\BlTest\\BlTest.csproj",
+      "projectPath": "M:\\c# net\\שרית ושרי\\project c#\\BlTest\\BlTest.csproj",
       "packagesPath": "C:\\Users\\sarak\\.nuget\\packages\\",
-      "outputPath": "M:\\c# net\\שרית ושרי\\DotNet2025_2144_3291\\BlTest\\obj\\",
+      "outputPath": "M:\\c# net\\שרית ושרי\\project c#\\BlTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -155,11 +155,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "M:\\c# net\\שרית ושרי\\DotNet2025_2144_3291\\BL\\BL.csproj": {
-              "projectPath": "M:\\c# net\\שרית ושרי\\DotNet2025_2144_3291\\BL\\BL.csproj"
+            "M:\\c# net\\שרית ושרי\\project c#\\BL\\BL.csproj": {
+              "projectPath": "M:\\c# net\\שרית ושרי\\project c#\\BL\\BL.csproj"
             },
-            "M:\\c# net\\שרית ושרי\\DotNet2025_2144_3291\\DalTest\\DalTest.csproj": {
-              "projectPath": "M:\\c# net\\שרית ושרי\\DotNet2025_2144_3291\\DalTest\\DalTest.csproj"
+            "M:\\c# net\\שרית ושרי\\project c#\\DalTest\\DalTest.csproj": {
+              "projectPath": "M:\\c# net\\שרית ושרי\\project c#\\DalTest\\DalTest.csproj"
             }
           }
         }
@@ -168,6 +168,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -189,7 +194,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

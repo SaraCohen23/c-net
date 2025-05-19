@@ -19,19 +19,19 @@ namespace UI
 
         private void products_Click(object sender, EventArgs e)
         {
-            Manager manager = new Manager();
+            Manager manager = new Manager(Type.Products);
             manager.Show();
         }
 
         private void orders_Click(object sender, EventArgs e)
         {
-            Manager manager = new Manager();
+            Manager manager = new Manager(Type.Sales);
             manager.Show();
         }
 
         private void customers_Click(object sender, EventArgs e)
         {
-            Manager manager = new Manager();
+            Manager manager = new Manager(Type.Customers);
             manager.Show();
         }
     }

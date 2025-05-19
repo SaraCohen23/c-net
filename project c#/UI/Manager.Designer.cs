@@ -35,6 +35,8 @@
             delete = new TabPage();
             show = new TabPage();
             showAll = new TabPage();
+            label1 = new Label();
+            comboBox1 = new ComboBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             Tabs.SuspendLayout();
             showAll.SuspendLayout();
@@ -68,7 +70,7 @@
             add.Location = new Point(4, 24);
             add.Name = "add";
             add.Padding = new Padding(3);
-            add.Size = new Size(324, 72);
+            add.Size = new Size(340, 242);
             add.TabIndex = 0;
             add.Text = "הוספה";
             add.UseVisualStyleBackColor = true;
@@ -78,7 +80,7 @@
             update.Location = new Point(4, 24);
             update.Name = "update";
             update.Padding = new Padding(3);
-            update.Size = new Size(324, 72);
+            update.Size = new Size(340, 242);
             update.TabIndex = 1;
             update.Text = "עדכון";
             update.UseVisualStyleBackColor = true;
@@ -98,7 +100,7 @@
             show.Location = new Point(4, 24);
             show.Name = "show";
             show.Padding = new Padding(3);
-            show.Size = new Size(324, 72);
+            show.Size = new Size(340, 242);
             show.TabIndex = 3;
             show.Text = "הצג";
             show.UseVisualStyleBackColor = true;
@@ -109,16 +111,35 @@
             showAll.Location = new Point(4, 24);
             showAll.Name = "showAll";
             showAll.Padding = new Padding(3);
-            showAll.Size = new Size(364, 245);
+            showAll.Size = new Size(340, 242);
             showAll.TabIndex = 4;
             showAll.Text = "הצג הכל";
             showAll.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(514, 19);
+            label1.Name = "label1";
+            label1.Size = new Size(38, 15);
+            label1.TabIndex = 8;
+            label1.Text = "label1";
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(650, 171);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(121, 23);
+            comboBox1.TabIndex = 9;
             // 
             // Manager
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(811, 450);
+            Controls.Add(comboBox1);
+            Controls.Add(label1);
             Controls.Add(Tabs);
             Name = "Manager";
             Text = "Manager";
@@ -126,6 +147,7 @@
             Tabs.ResumeLayout(false);
             showAll.ResumeLayout(false);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -136,5 +158,7 @@
         private TabPage delete;
         private TabPage show;
         private TabPage showAll;
+        private Label label1;
+        private ComboBox comboBox1;
     }
 }

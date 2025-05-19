@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "M:\\c# net\\שרית ושרי\\DotNet2025_2144_3291\\Tools\\Tools.csproj",
+      "projectUniqueName": "M:\\c# net\\שרית ושרי\\project c#\\Tools\\Tools.csproj",
       "projectName": "Tools",
-      "projectPath": "M:\\c# net\\שרית ושרי\\DotNet2025_2144_3291\\Tools\\Tools.csproj",
+      "projectPath": "M:\\c# net\\שרית ושרי\\project c#\\Tools\\Tools.csproj",
       "packagesPath": "C:\\Users\\sarak\\.nuget\\packages\\",
-      "outputPath": "M:\\c# net\\שרית ושרי\\DotNet2025_2144_3291\\Tools\\obj\\",
+      "outputPath": "M:\\c# net\\שרית ושרי\\project c#\\Tools\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -48,6 +48,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -69,7 +74,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
