@@ -15,7 +15,7 @@ namespace UI
     {
         public Type type;
         public Manager(Type type)
-        { 
+        {
             this.type = type;
             InitializeComponent();
 
@@ -27,6 +27,9 @@ namespace UI
 
         }
 
-       
+        private void Manager_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
