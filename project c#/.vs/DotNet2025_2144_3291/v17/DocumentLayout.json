@@ -271,8 +271,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -304,8 +308,8 @@
               "Title": "Choose.cs",
               "DocumentMoniker": "M:\\c# net\\\u05E9\u05E8\u05D9\u05EA \u05D5\u05E9\u05E8\u05D9\\project c#\\UI\\Choose.cs",
               "RelativeDocumentMoniker": "UI\\Choose.cs",
-              "ToolTip": "M:\\c# net\\\u05E9\u05E8\u05D9\u05EA \u05D5\u05E9\u05E8\u05D9\\project c#\\UI\\Choose.cs*",
-              "RelativeToolTip": "UI\\Choose.cs*",
+              "ToolTip": "M:\\c# net\\\u05E9\u05E8\u05D9\u05EA \u05D5\u05E9\u05E8\u05D9\\project c#\\UI\\Choose.cs",
+              "RelativeToolTip": "UI\\Choose.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAswCEAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T07:22:16.787Z",
@@ -329,8 +333,8 @@
               "Title": "Choose.cs [Design]",
               "DocumentMoniker": "M:\\c# net\\\u05E9\u05E8\u05D9\u05EA \u05D5\u05E9\u05E8\u05D9\\project c#\\UI\\Choose.cs",
               "RelativeDocumentMoniker": "UI\\Choose.cs",
-              "ToolTip": "M:\\c# net\\\u05E9\u05E8\u05D9\u05EA \u05D5\u05E9\u05E8\u05D9\\project c#\\UI\\Choose.cs [Design]*",
-              "RelativeToolTip": "UI\\Choose.cs [Design]*",
+              "ToolTip": "M:\\c# net\\\u05E9\u05E8\u05D9\u05EA \u05D5\u05E9\u05E8\u05D9\\project c#\\UI\\Choose.cs [Design]",
+              "RelativeToolTip": "UI\\Choose.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T07:22:01.019Z",
               "EditorCaption": " [Design]"
@@ -346,10 +350,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T07:20:04.558Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -472,7 +472,7 @@
               "RelativeDocumentMoniker": "xml\\products.xml",
               "ToolTip": "M:\\c# net\\\u05E9\u05E8\u05D9\u05EA \u05D5\u05E9\u05E8\u05D9\\project c#\\xml\\products.xml",
               "RelativeToolTip": "xml\\products.xml",
-              "ViewState": "AQIAAC8AAAAAAAAAAABRwEQAAAArAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAIBZwEQAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
               "WhenOpened": "2025-03-26T10:59:21.041Z",
               "EditorCaption": ""
@@ -550,7 +550,7 @@
               "RelativeDocumentMoniker": "xml\\customers.xml",
               "ToolTip": "M:\\c# net\\\u05E9\u05E8\u05D9\u05EA \u05D5\u05E9\u05E8\u05D9\\project c#\\xml\\customers.xml",
               "RelativeToolTip": "xml\\customers.xml",
-              "ViewState": "AQIAADgAAAAAAAAAAABRwFYAAAAMAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAIBZwFYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
               "WhenOpened": "2025-03-26T10:58:17.897Z",
               "EditorCaption": ""
