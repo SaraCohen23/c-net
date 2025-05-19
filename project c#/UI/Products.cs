@@ -12,7 +12,7 @@ namespace UI
 {
     public partial class Products : Form
     {
-        public Products()
+        public Products(int id = -1)
         {
             InitializeComponent();
         }

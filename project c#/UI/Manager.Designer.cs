@@ -28,138 +28,75 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            comboBox1 = new ComboBox();
-            showAll = new TabPage();
+            panel1 = new Panel();
             dataGridView1 = new DataGridView();
-            show = new TabPage();
-            delete = new TabPage();
-            update = new TabPage();
-            add = new TabPage();
-            Tabs = new TabControl();
-            showAll.SuspendLayout();
+            button1 = new Button();
+            label1 = new Label();
+            panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            Tabs.SuspendLayout();
             SuspendLayout();
             // 
-            // label1
+            // panel1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(514, 19);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 15);
-            label1.TabIndex = 8;
-            label1.Text = "label1";
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(650, 171);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
-            comboBox1.TabIndex = 9;
-            // 
-            // showAll
-            // 
-            showAll.Controls.Add(dataGridView1);
-            showAll.Location = new Point(4, 24);
-            showAll.Name = "showAll";
-            showAll.Padding = new Padding(3);
-            showAll.Size = new Size(340, 242);
-            showAll.TabIndex = 4;
-            showAll.Text = "הצג הכל";
-            showAll.UseVisualStyleBackColor = true;
+            panel1.Controls.Add(dataGridView1);
+            panel1.Location = new Point(252, 107);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(442, 303);
+            panel1.TabIndex = 0;
+            panel1.Paint += panel1_Paint;
             // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(3, 3);
+            dataGridView1.Location = new Point(0, 26);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(361, 239);
-            dataGridView1.TabIndex = 5;
+            dataGridView1.Size = new Size(439, 277);
+            dataGridView1.TabIndex = 0;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            dataGridView1.CellDoubleClick += dataGridView1_CellDoubleClick;
             // 
-            // show
+            // button1
             // 
-            show.Location = new Point(4, 24);
-            show.Name = "show";
-            show.Padding = new Padding(3);
-            show.Size = new Size(340, 242);
-            show.TabIndex = 3;
-            show.Text = "הצג";
-            show.UseVisualStyleBackColor = true;
+            button1.Location = new Point(636, 52);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 1;
+            button1.Text = "add";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
-            // delete
+            // label1
             // 
-            delete.Location = new Point(4, 24);
-            delete.Name = "delete";
-            delete.Padding = new Padding(3);
-            delete.Size = new Size(340, 242);
-            delete.TabIndex = 2;
-            delete.Text = "מחיקה";
-            delete.UseVisualStyleBackColor = true;
-            // 
-            // update
-            // 
-            update.Location = new Point(4, 24);
-            update.Name = "update";
-            update.Padding = new Padding(3);
-            update.Size = new Size(340, 242);
-            update.TabIndex = 1;
-            update.Text = "עדכון";
-            update.UseVisualStyleBackColor = true;
-            // 
-            // add
-            // 
-            add.Location = new Point(4, 24);
-            add.Name = "add";
-            add.Padding = new Padding(3);
-            add.Size = new Size(340, 242);
-            add.TabIndex = 0;
-            add.Text = "הוספה";
-            add.UseVisualStyleBackColor = true;
-            // 
-            // Tabs
-            // 
-            Tabs.Controls.Add(add);
-            Tabs.Controls.Add(update);
-            Tabs.Controls.Add(delete);
-            Tabs.Controls.Add(show);
-            Tabs.Controls.Add(showAll);
-            Tabs.Location = new Point(218, 62);
-            Tabs.Name = "Tabs";
-            Tabs.SelectedIndex = 0;
-            Tabs.Size = new Size(348, 270);
-            Tabs.TabIndex = 7;
-            Tabs.SelectedIndexChanged += Tabs_SelectedIndexChanged;
+            label1.AutoSize = true;
+            label1.Location = new Point(387, 52);
+            label1.Name = "label1";
+            label1.Size = new Size(38, 15);
+            label1.TabIndex = 2;
+            label1.Text = "label1";
+            label1.Click += label1_Click;
             // 
             // Manager
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(811, 450);
-            Controls.Add(comboBox1);
             Controls.Add(label1);
-            Controls.Add(Tabs);
+            Controls.Add(button1);
+            Controls.Add(panel1);
             Name = "Manager";
             Text = "Manager";
-            Load += Manager_Load;
-            showAll.ResumeLayout(false);
+            panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            Tabs.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private Label label1;
-        private ComboBox comboBox1;
-        private TabPage showAll;
+
+        private Panel panel1;
+        private Button button1;
         private DataGridView dataGridView1;
-        private TabPage show;
-        private TabPage delete;
-        private TabPage update;
-        private TabPage add;
-        private TabControl Tabs;
+        private Label label1;
     }
 }

@@ -92,10 +92,6 @@ internal class ProductImplementation : IProduct
     {
         XElement productXml = XElement.Load(filePath);
         LogManager.WriteToLogStart(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "read Product");
-        if (func == null)
-        {
-            throw new Exception("func is null");
-        }
         int n;
         IEnumerable<Product> products = productXml.Descendants("Product").Select(p =>
         new Product((int)(p.Element("ProductId")),
