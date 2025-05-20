@@ -103,45 +103,63 @@
     <phone />
   </Customer>
   <Customer>
-    <customerId>1</customerId>
-    <customerName>a</customerName>
-    <address>12</address>
-    <phone>b</phone>
-  </Customer>
-  <Customer>
-    <customerId>1</customerId>
-    <customerName>a</customerName>
-    <address>12</address>
-    <phone>b</phone>
-  </Customer>
-  <Customer>
-    <customerId>2</customerId>
-    <customerName>d</customerName>
-    <address>d</address>
-    <phone>d</phone>
-  </Customer>
-  <Customer>
-    <customerId>2</customerId>
-    <customerName>d</customerName>
-    <address>d</address>
-    <phone>d</phone>
-  </Customer>
-  <Customer>
-    <customerId>2</customerId>
-    <customerName>d</customerName>
-    <address>d</address>
-    <phone>d</phone>
-  </Customer>
-  <Customer>
-    <customerId>7</customerId>
-    <customerName>o</customerName>
-    <address>6</address>
-    <phone>o</phone>
-  </Customer>
-  <Customer>
     <customerId>98</customerId>
     <customerName>yuy</customerName>
     <address>t</address>
     <phone>t</phone>
+  </Customer>
+  <Customer>
+    <customerId>0</customerId>
+    <customerName />
+    <address />
+    <phone />
+  </Customer>
+  <Customer>
+    <customerId>0</customerId>
+    <customerName />
+    <address />
+    <phone />
+  </Customer>
+  <Customer>
+    <customerId>0</customerId>
+    <customerName />
+    <address />
+    <phone />
+  </Customer>
+  <Customer>
+    <customerId>0</customerId>
+    <customerName />
+    <address />
+    <phone />
+  </Customer>
+  <Customer>
+    <customerId>0</customerId>
+    <customerName>אבי</customerName>
+    <address />
+    <phone />
+  </Customer>
+  <Customer>
+    <customerId>1</customerId>
+    <customerName>sara</customerName>
+    <address>b</address>
+    <phone>12</phone>
+  </Customer>
+  <Customer>
+    <customerId>1</customerId>
+    <customerName>בלבה</customerName>
+    <address>/</address>
+    <phone />
+  </Customer>
+  <Customer>
+    <customerId>1</customerId>
+    <customerName>ך</customerName>
+    <address />
+    <phone />
+  </Customer>
+  <Customer>
+    <customerId>0</customerId>
+    <customerName>k</customerName>
+    <address />
+    <phone />
   </Customer>
 </ArrayOfCustomer>

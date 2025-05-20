@@ -1,108 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfProduct>
   <Product>
-    <ProductId>1</ProductId>
-    <ProductName></ProductName>
-    <ProductCategory>pizza</ProductCategory>
+    <ProductId>2</ProductId>
+    <ProductName>tttt</ProductName>
+    <ProductCategory>drink</ProductCategory>
     <Quantity>0</Quantity>
-    <Price>0</Price>
+    <Price>3</Price>
   </Product>
   <Product>
     <ProductId>1</ProductId>
-    <ProductName></ProductName>
+    <ProductName>פ</ProductName>
     <ProductCategory>pizza</ProductCategory>
-    <Quantity>0</Quantity>
-    <Price>0</Price>
+    <Quantity>14</Quantity>
+    <Price>23</Price>
   </Product>
   <Product>
-    <ProductId>0</ProductId>
-    <ProductName></ProductName>
+    <ProductId>32</ProductId>
+    <ProductName>sarush</ProductName>
     <ProductCategory>pizza</ProductCategory>
-    <Quantity>0</Quantity>
-    <Price>0</Price>
+    <Quantity>2</Quantity>
+    <Price>34</Price>
   </Product>
   <Product>
-    <ProductId>1</ProductId>
-    <ProductName></ProductName>
+    <ProductId>33</ProductId>
+    <ProductName>pizzale</ProductName>
     <ProductCategory>pizza</ProductCategory>
     <Quantity>0</Quantity>
-    <Price>0</Price>
-  </Product>
-  <Product>
-    <ProductId>3</ProductId>
-    <ProductName></ProductName>
-    <ProductCategory>pizza</ProductCategory>
-    <Quantity>0</Quantity>
-    <Price>0</Price>
-  </Product>
-  <Product>
-    <ProductId>5</ProductId>
-    <ProductName></ProductName>
-    <ProductCategory>pizza</ProductCategory>
-    <Quantity>0</Quantity>
-    <Price>0</Price>
-  </Product>
-  <Product>
-    <ProductId>7</ProductId>
-    <ProductName></ProductName>
-    <ProductCategory>pizza</ProductCategory>
-    <Quantity>0</Quantity>
-    <Price>0</Price>
-  </Product>
-  <Product>
-    <ProductId>9</ProductId>
-    <ProductName></ProductName>
-    <ProductCategory>pizza</ProductCategory>
-    <Quantity>0</Quantity>
-    <Price>0</Price>
-  </Product>
-  <Product>
-    <ProductId>11</ProductId>
-    <ProductName></ProductName>
-    <ProductCategory>pizza</ProductCategory>
-    <Quantity>0</Quantity>
-    <Price>0</Price>
-  </Product>
-  <Product>
-    <ProductId>13</ProductId>
-    <ProductName>s</ProductName>
-    <ProductCategory>tost</ProductCategory>
-    <Quantity>3</Quantity>
-    <Price>5</Price>
-  </Product>
-  <Product>
-    <ProductId>14</ProductId>
-    <ProductName></ProductName>
-    <ProductCategory>pizza</ProductCategory>
-    <Quantity>0</Quantity>
-    <Price>0</Price>
-  </Product>
-  <Product>
-    <ProductId>16</ProductId>
-    <ProductName></ProductName>
-    <ProductCategory>pizza</ProductCategory>
-    <Quantity>0</Quantity>
-    <Price>0</Price>
-  </Product>
-  <Product>
-    <ProductId>18</ProductId>
-    <ProductName></ProductName>
-    <ProductCategory>pizza</ProductCategory>
-    <Quantity>0</Quantity>
-    <Price>0</Price>
-  </Product>
-  <Product>
-    <ProductId>20</ProductId>
-    <ProductName></ProductName>
-    <ProductCategory>pizza</ProductCategory>
-    <Quantity>0</Quantity>
-    <Price>0</Price>
-  </Product>
-  <Product>
-    <ProductId>22</ProductId>
-    <ProductName></ProductName>
-    <ProductCategory>pizza</ProductCategory>
-    <Quantity>0</Quantity>
-    <Price>0</Price>
+    <Price>1</Price>
   </Product>
 </ArrayOfProduct>

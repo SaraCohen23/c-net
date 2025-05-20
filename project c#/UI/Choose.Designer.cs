@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Choose));
             products = new Button();
             customers = new Button();
             orders = new Button();
@@ -35,7 +36,7 @@
             // 
             // products
             // 
-            products.Location = new Point(557, 144);
+            products.Location = new Point(523, 173);
             products.Name = "products";
             products.Size = new Size(75, 23);
             products.TabIndex = 0;
@@ -45,7 +46,7 @@
             // 
             // customers
             // 
-            customers.Location = new Point(335, 144);
+            customers.Location = new Point(280, 173);
             customers.Name = "customers";
             customers.Size = new Size(75, 23);
             customers.TabIndex = 1;
@@ -55,11 +56,11 @@
             // 
             // orders
             // 
-            orders.Location = new Point(451, 144);
+            orders.Location = new Point(402, 173);
             orders.Name = "orders";
             orders.Size = new Size(75, 23);
             orders.TabIndex = 2;
-            orders.Text = "הזמנות";
+            orders.Text = "מבצעים";
             orders.UseVisualStyleBackColor = true;
             orders.Click += orders_Click;
             // 
@@ -67,10 +68,13 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 450);
             Controls.Add(orders);
             Controls.Add(customers);
             Controls.Add(products);
+            DoubleBuffered = true;
             Name = "Choose";
             Text = "Choose";
             ResumeLayout(false);

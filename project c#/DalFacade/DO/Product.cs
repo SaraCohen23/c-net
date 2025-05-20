@@ -12,7 +12,7 @@ namespace DO
      string? productName,
      Category? productCategory, 
     int? quantity,
-      double? price
+     double? price
     )
     {
         public Product() : this(1, "", Category.pizza, 0, 0)

@@ -45,7 +45,6 @@ internal class ProductImplementation : IProduct
         return product.productId;
     }
 
-
     public Product? Read(int id)
     {
         XElement productXml = XElement.Load(filePath);
@@ -106,33 +105,50 @@ internal class ProductImplementation : IProduct
     {
         XElement productXml = XElement.Load(filePath);
         LogManager.WriteToLogStart(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "update Product");
-        IEnumerable<Product> productsCopy = productXml.Descendants("Product").Select(p =>
-         new Product((int)(p.Element("ProductId")),
-         p.Element("ProductName").Value,
-             (Category)Enum.Parse(typeof(Category), p.Element("ProductCategory").Value),
-             (int)p.Element("Quantity"), (double)p.Element("Price")));
-        foreach (var item2 in productsCopy)
+
+        XElement productToUpdate = productXml.Descendants("Product")
+            .FirstOrDefault(p => (int)p.Element("ProductId") == item.productId);
+
+        if (productToUpdate != null)
         {
-            if (item.productId == item2.productId)
+ 
+            productToUpdate.Element("ProductName").Value = item.productName;
+            productToUpdate.Element("ProductCategory").Value = item.productCategory.ToString();
+            productToUpdate.Element("Quantity").Value = item.quantity.ToString();
+            productToUpdate.Element("Price").Value = item.price.ToString();
+
+            string categoryText = item.productCategory.ToString();
+
+            if (Enum.TryParse<DO.Category>(categoryText, out DO.Category tempCategory))
             {
-                Delete(item.productId);
-                productXml.Add(item);
-                productXml.Save(filePath);
-                LogManager.WriteToLogEnd(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "update Product");
-                return;
+                productToUpdate.Element("ProductCategory").Value = tempCategory.ToString();
             }
-
+                productXml.Save(filePath);
+            LogManager.WriteToLogEnd(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "update Product");
         }
-        LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "id not found");
-        throw new DalDoesNotExistException("there is no such item ,product");
-
+        else
+        {
+            LogManager.WriteToLog(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "id not found");
+            throw new DalDoesNotExistException("there is no such item ,product");
+        }
     }
+
+
     public void Delete(int id)
     {
         XElement productXml = XElement.Load(filePath);
         LogManager.WriteToLogStart(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "Delete Product");
-        LogManager.WriteToLogEnd(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "Delete Product");
-        productXml.Descendants("Product").First(pId => pId.Value == id.ToString()).Parent.Remove();
+
+        // מחיקת האיברים שמקיימים את התנאי
+        productXml.Descendants("Product")
+                   .Where(p => (string)p.Element("ProductId") == id.ToString())
+                   .Remove();
+
         productXml.Save(filePath);
+        LogManager.WriteToLogEnd(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "Delete Product");
     }
+
+
 }
+
+

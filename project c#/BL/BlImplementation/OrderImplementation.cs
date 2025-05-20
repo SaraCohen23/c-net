@@ -7,7 +7,7 @@ namespace BlImplementation;
 internal class OrderImplementation : IOrder
 {
     private DalApi.IDal _dal = DalApi.Factory.Get;
-    public List<SaleInProduct> AddProductToOrder(Order order, int productId, int quantity)
+    public List<SaleInProduct> AddProductToOrder(Order order, int productId, int quantity,double price)
     {
         try
         {
@@ -17,39 +17,47 @@ internal class OrderImplementation : IOrder
             ProductInOrder result = order.ProductInOrders.FirstOrDefault(c => c.Id == productId);
             if (result == null)
             {
-                order.ProductInOrders.Add(new ProductInOrder(productId, "", quantity, 0, 0));
+                order.ProductInOrders.Add(new ProductInOrder(productId, "", quantity, price, 0));
             }
-            else result.Quantity += quantity;
-            ProductInOrder p = (ProductInOrder)order.ProductInOrders.Select(i => i.Id == productId);
-            CalcTotalPriceForProduct(p);
-            CalcTotalPrice(order);
-            SearchSaleForProduct(p,order.Favorite);
+            else { result.Quantity += quantity;  }
+            product.Quantity-=quantity;
+            _dal.Product.Update(product.Convert());
+            ProductInOrder p = order.ProductInOrders.FirstOrDefault(i => i.Id == productId);
+            SearchSaleForProduct(p, order.Favorite);
+            double basep=CalcTotalPriceForProduct(p,order.Favorite);
+            CalcTotalPrice(order,p.FinalPrice??0,basep);
+        
             return p.SaleInProducts;         
         }
         
-        catch (Exception ex)
+        catch (BlNotInStockException ex)
         {
-            throw new Exception();
+            throw new BlNotInStockException(ex.ToString());
         }
     }
-    public void CalcTotalPriceForProduct(ProductInOrder product)
+    public double CalcTotalPriceForProduct( ProductInOrder product ,bool favorite)
     {
         try
         {
             int? count = product.Quantity;
-            List<SaleInProduct>s= new List<SaleInProduct>();    
+            List<SaleInProduct>s= new List<SaleInProduct>();
+            double base_price = product.FinalPrice ?? 0;
             foreach (SaleInProduct i in product.SaleInProducts)
             {
-                if (count == 0)
-                    break;
-                if (i.Quantity <= count)
+                if (i.IfAll == false || favorite)
                 {
-                    product.FinalPrice += count / i.Quantity * i.Price;
-                    s.Add(i);
-                    count -= count % i.Quantity;
+                    if (count == 0)
+                        break;
+                    if (i.Quantity <= count)
+                    {
+                        product.FinalPrice = product.BasePrice *( count - count % i.Quantity)-( count / i.Quantity * i.Price);
+                        s.Add(i);
+                        count =count%i.Quantity;
+                    }
                 }
-            }
-            product.FinalPrice += product.BasePrice * count;
+            }           
+            product.FinalPrice = product.BasePrice * count;
+            return base_price;
         }
         catch (Exception ex)
         {
@@ -57,11 +65,11 @@ internal class OrderImplementation : IOrder
         }
 
     }
-    public  void CalcTotalPrice(Order order)
+    public  void CalcTotalPrice(Order order, double finalPrice,double basep)
     {
         try
         {
-            order.ProductInOrders.Sum( c=>order.FinalPrice += c.FinalPrice);
+            order.FinalPrice+=finalPrice-basep;
 
         }
         catch (Exception ex) { throw new Exception(); }
@@ -78,7 +86,8 @@ internal class OrderImplementation : IOrder
     {
         try
         {
-            product.SaleInProducts = _dal.Sale.ReadAll(i => i.saleQuantity <= product.Quantity).Select(i => i.Convert())
+            product.SaleInProducts = _dal.Sale.ReadAll(i => i.saleQuantity <= product.Quantity&&
+            product.Id==i.saleProductId&&i.saleStartDate<=DateTime.Now&&i.saleFinishDate>=DateTime.Now).Select(i => i.Convert())
                 .Select(i => new SaleInProduct(i.SaleId, i.SaleQuantity, i.SalePrice, i.SaleIfClub)).OrderBy(s=>s.Price).ToList();
 
         }

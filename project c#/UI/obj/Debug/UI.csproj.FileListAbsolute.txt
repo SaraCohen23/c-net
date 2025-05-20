@@ -28,8 +28,13 @@ M:\c# net\שרית ושרי\project c#\bin\UI.pdb
 M:\c# net\שרית ושרי\project c#\UI\obj\Debug\UI.csproj.AssemblyReference.cache
 M:\c# net\שרית ושרי\project c#\UI\obj\Debug\UI.Cashier.resources
 M:\c# net\שרית ושרי\project c#\UI\obj\Debug\UI.Choose.resources
+M:\c# net\שרית ושרי\project c#\UI\obj\Debug\UI.club.resources
+M:\c# net\שרית ושרי\project c#\UI\obj\Debug\UI.Customers.resources
 M:\c# net\שרית ושרי\project c#\UI\obj\Debug\UI.Main.resources
 M:\c# net\שרית ושרי\project c#\UI\obj\Debug\UI.Manager.resources
+M:\c# net\שרית ושרי\project c#\UI\obj\Debug\UI.Products.resources
+M:\c# net\שרית ושרי\project c#\UI\obj\Debug\UI.Properties.Resources.resources
+M:\c# net\שרית ושרי\project c#\UI\obj\Debug\UI.Sales.resources
 M:\c# net\שרית ושרי\project c#\UI\obj\Debug\UI.csproj.GenerateResource.cache
 M:\c# net\שרית ושרי\project c#\UI\obj\Debug\UI.GeneratedMSBuildEditorConfig.editorconfig
 M:\c# net\שרית ושרי\project c#\UI\obj\Debug\UI.AssemblyInfoInputs.cache
@@ -42,6 +47,3 @@ M:\c# net\שרית ושרי\project c#\UI\obj\Debug\refint\UI.dll
 M:\c# net\שרית ושרי\project c#\UI\obj\Debug\UI.pdb
 M:\c# net\שרית ושרי\project c#\UI\obj\Debug\UI.genruntimeconfig.cache
 M:\c# net\שרית ושרי\project c#\UI\obj\Debug\ref\UI.dll
-M:\c# net\שרית ושרי\project c#\UI\obj\Debug\UI.Customers.resources
-M:\c# net\שרית ושרי\project c#\UI\obj\Debug\UI.Products.resources
-M:\c# net\שרית ושרי\project c#\UI\obj\Debug\UI.Sales.resources

@@ -114,10 +114,21 @@ internal class SaleImplementation : ISale
         Sale sale = list.Find(i => i.saleId == item.saleId);
         if (sale == null)
             throw new DalDoesNotExistException("id not found,sale");
-        list.Remove(sale);
-        list.Add(item);
+
+        Sale updatedSale = sale with
+        {
+            saleProductId = item.saleProductId,
+            saleQuantity = item.saleQuantity,
+            salePrice = item.salePrice,
+            saleIfClub = item.saleIfClub,
+            saleStartDate = item.saleStartDate,
+            saleFinishDate = item.saleFinishDate
+        };
+
+        int index = list.IndexOf(sale);
+        list[index] = updatedSale;
+
         save(list);
         LogManager.WriteToLogEnd(MethodBase.GetCurrentMethod().DeclaringType.FullName, MethodBase.GetCurrentMethod().Name, "update sale");
-
     }
 }
