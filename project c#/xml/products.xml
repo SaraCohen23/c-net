@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProduct>
+  <Product>
+    <ProductId>1</ProductId>
+    <ProductName>pizza extra</ProductName>
+    <ProductCategory>pizza</ProductCategory>
+    <Quantity>0</Quantity>
+    <Price>30</Price>
+  </Product>
+  <Product>
+    <ProductId>2</ProductId>
+    <ProductName>pizza xl</ProductName>
+    <ProductCategory>pizza</ProductCategory>
+    <Quantity>0</Quantity>
+    <Price>23</Price>
+  </Product>
+  <Product>
+    <ProductId>3</ProductId>
+    <ProductName>personal pizza</ProductName>
+    <ProductCategory>pizza</ProductCategory>
+    <Quantity>12</Quantity>
+    <Price>20</Price>
+  </Product>
+  <Product>
+    <ProductId>4</ProductId>
+    <ProductName>cola</ProductName>
+    <ProductCategory>drink</ProductCategory>
+    <Quantity>7</Quantity>
+    <Price>8</Price>
+  </Product>
+  <Product>
+    <ProductId>5</ProductId>
+    <ProductName>juice</ProductName>
+    <ProductCategory>drink</ProductCategory>
+    <Quantity>3</Quantity>
+    <Price>8</Price>
+  </Product>
+  <Product>
+    <ProductId>6</ProductId>
+    <ProductName>water</ProductName>
+    <ProductCategory>drink</ProductCategory>
+    <Quantity>12</Quantity>
+    <Price>8</Price>
+  </Product>
+  <Product>
+    <ProductId>9</ProductId>
+    <ProductName>tost</ProductName>
+    <ProductCategory>tost</ProductCategory>
+    <Quantity>25</Quantity>
+    <Price>8</Price>
+  </Product>
+  <Product>
+    <ProductId>10</ProductId>
+    <ProductName>vafel belgi</ProductName>
+    <ProductCategory>pizza</ProductCategory>
+    <Quantity>8</Quantity>
+    <Price>8</Price>
+  </Product>
+  <Product>
+    <ProductId>11</ProductId>
+    <ProductName>salad</ProductName>
+    <ProductCategory>salad</ProductCategory>
+    <Quantity>0</Quantity>
+    <Price>8</Price>
+  </Product>
+</ArrayOfProduct>

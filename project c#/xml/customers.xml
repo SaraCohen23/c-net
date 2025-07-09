@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Customer>
+		<customerId>11111</customerId>
+		<customerName>Sara</customerName>
+		<address> Jerusalem</address >
+		<phone>9742587</phone>
+	</Customer>
+	<Customer>
+		<customerId>2222</customerId>
+		<customerName>Sarit</customerName>
+		<address> Bnei-Brak</address >
+		<phone>9742718</phone>
+	</Customer>
+	<Customer>
+		<customerId>333</customerId>
+		<customerName>Giti</customerName>
+		<address> Jerusalem</address >
+		<phone>9748888</phone>
+	</Customer>
+</ArrayOfCustomer>

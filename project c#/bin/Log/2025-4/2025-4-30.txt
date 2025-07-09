@@ -1,0 +1,6 @@
+30/04/2025 12:43:59	Dal.CustomerImplementation.Create :	create Customer start
+30/04/2025 12:43:59	Dal.CustomerImplementation.Create :	create Customer end
+30/04/2025 12:43:59	Dal.ProductImplementation.Create :	Create Product start
+30/04/2025 12:43:59	Dal.ProductImplementation.Create :	Create Product end
+30/04/2025 12:43:59	Dal.SaleImplementation.Create :	create sale start
+30/04/2025 12:43:59	Dal.SaleImplementation.Create :	create sale end

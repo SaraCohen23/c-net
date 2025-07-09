@@ -1,0 +1,96 @@
+M:\שרית ושרי\DotNet2025_2144_3291\bin\BL.deps.json
+M:\שרית ושרי\DotNet2025_2144_3291\bin\BL.dll
+M:\שרית ושרי\DotNet2025_2144_3291\bin\BL.pdb
+M:\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+M:\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+M:\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+M:\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\BL.AssemblyInfo.cs
+M:\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+M:\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\BL.dll
+M:\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\refint\BL.dll
+M:\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\BL.pdb
+M:\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\ref\BL.dll
+M:\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\BL.csproj.CopyComplete
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\bin\BL.deps.json
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\bin\BL.dll
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\bin\BL.pdb
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\BL.AssemblyInfo.cs
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\BL.csproj.CopyComplete
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\BL.dll
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\refint\BL.dll
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\BL.pdb
+M:\c# net\שרית ושרי\DotNet2025_2144_3291\BL\obj\Debug\ref\BL.dll
+M:\c# net\שרית ושרי\project c#\bin\BL.deps.json
+M:\c# net\שרית ושרי\project c#\bin\BL.dll
+M:\c# net\שרית ושרי\project c#\bin\BL.pdb
+M:\c# net\שרית ושרי\project c#\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+M:\c# net\שרית ושרי\project c#\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+M:\c# net\שרית ושרי\project c#\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+M:\c# net\שרית ושרי\project c#\BL\obj\Debug\BL.AssemblyInfo.cs
+M:\c# net\שרית ושרי\project c#\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+M:\c# net\שרית ושרי\project c#\BL\obj\Debug\BL.sourcelink.json
+M:\c# net\שרית ושרי\project c#\BL\obj\Debug\BL.csproj.Up2Date
+M:\c# net\שרית ושרי\project c#\BL\obj\Debug\BL.dll
+M:\c# net\שרית ושרי\project c#\BL\obj\Debug\refint\BL.dll
+M:\c# net\שרית ושרי\project c#\BL\obj\Debug\BL.pdb
+M:\c# net\שרית ושרי\project c#\BL\obj\Debug\ref\BL.dll
+C:\Users\97427\OneDrive\שולחן העבודה\שרית תכנות\c# net\c-net\project c#\bin\BL.deps.json
+C:\Users\97427\OneDrive\שולחן העבודה\שרית תכנות\c# net\c-net\project c#\bin\BL.dll
+C:\Users\97427\OneDrive\שולחן העבודה\שרית תכנות\c# net\c-net\project c#\bin\BL.pdb
+C:\Users\97427\OneDrive\שולחן העבודה\שרית תכנות\c# net\c-net\project c#\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+C:\Users\97427\OneDrive\שולחן העבודה\שרית תכנות\c# net\c-net\project c#\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\97427\OneDrive\שולחן העבודה\שרית תכנות\c# net\c-net\project c#\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+C:\Users\97427\OneDrive\שולחן העבודה\שרית תכנות\c# net\c-net\project c#\BL\obj\Debug\BL.AssemblyInfo.cs
+C:\Users\97427\OneDrive\שולחן העבודה\שרית תכנות\c# net\c-net\project c#\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\97427\OneDrive\שולחן העבודה\שרית תכנות\c# net\c-net\project c#\BL\obj\Debug\BL.sourcelink.json
+C:\Users\97427\OneDrive\שולחן העבודה\שרית תכנות\c# net\c-net\project c#\BL\obj\Debug\BL.csproj.Up2Date
+C:\Users\97427\OneDrive\שולחן העבודה\שרית תכנות\c# net\c-net\project c#\BL\obj\Debug\BL.dll
+C:\Users\97427\OneDrive\שולחן העבודה\שרית תכנות\c# net\c-net\project c#\BL\obj\Debug\refint\BL.dll
+C:\Users\97427\OneDrive\שולחן העבודה\שרית תכנות\c# net\c-net\project c#\BL\obj\Debug\BL.pdb
+C:\Users\97427\OneDrive\שולחן העבודה\שרית תכנות\c# net\c-net\project c#\BL\obj\Debug\ref\BL.dll
+D:\project c#\BL\obj\Debug\BL.dll
+D:\project c#\BL\obj\Debug\refint\BL.dll
+D:\project c#\BL\obj\Debug\BL.pdb
+E:\‏‏תיקיה חדשה\project c#\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+E:\‏‏תיקיה חדשה\project c#\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+E:\‏‏תיקיה חדשה\project c#\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+E:\‏‏תיקיה חדשה\project c#\BL\obj\Debug\BL.AssemblyInfo.cs
+E:\‏‏תיקיה חדשה\project c#\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+E:\‏‏תיקיה חדשה\project c#\BL\obj\Debug\BL.dll
+E:\‏‏תיקיה חדשה\project c#\BL\obj\Debug\refint\BL.dll
+E:\‏‏תיקיה חדשה\project c#\BL\obj\Debug\BL.pdb
+E:\‏‏תיקיה חדשה\project c#\bin\BL.deps.json
+E:\‏‏תיקיה חדשה\project c#\bin\BL.dll
+E:\‏‏תיקיה חדשה\project c#\bin\BL.pdb
+E:\‏‏תיקיה חדשה\project c#\BL\obj\Debug\BL.csproj.CopyComplete
+E:\‏‏תיקיה חדשה\project c#\BL\obj\Debug\ref\BL.dll
+T:\לאלישבע\‏‏תיקיה חדשה\project c#\bin\BL.deps.json
+T:\לאלישבע\‏‏תיקיה חדשה\project c#\bin\BL.dll
+T:\לאלישבע\‏‏תיקיה חדשה\project c#\bin\BL.pdb
+T:\לאלישבע\‏‏תיקיה חדשה\project c#\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+T:\לאלישבע\‏‏תיקיה חדשה\project c#\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+T:\לאלישבע\‏‏תיקיה חדשה\project c#\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+T:\לאלישבע\‏‏תיקיה חדשה\project c#\BL\obj\Debug\BL.AssemblyInfo.cs
+T:\לאלישבע\‏‏תיקיה חדשה\project c#\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+T:\לאלישבע\‏‏תיקיה חדשה\project c#\BL\obj\Debug\BL.csproj.Up2Date
+T:\לאלישבע\‏‏תיקיה חדשה\project c#\BL\obj\Debug\BL.dll
+T:\לאלישבע\‏‏תיקיה חדשה\project c#\BL\obj\Debug\refint\BL.dll
+T:\לאלישבע\‏‏תיקיה חדשה\project c#\BL\obj\Debug\BL.pdb
+T:\לאלישבע\‏‏תיקיה חדשה\project c#\BL\obj\Debug\ref\BL.dll
+M:\c# net\final\project c#\bin\BL.deps.json
+M:\c# net\final\project c#\bin\BL.dll
+M:\c# net\final\project c#\bin\BL.pdb
+M:\c# net\final\project c#\BL\obj\Debug\BL.csproj.AssemblyReference.cache
+M:\c# net\final\project c#\BL\obj\Debug\BL.GeneratedMSBuildEditorConfig.editorconfig
+M:\c# net\final\project c#\BL\obj\Debug\BL.AssemblyInfoInputs.cache
+M:\c# net\final\project c#\BL\obj\Debug\BL.AssemblyInfo.cs
+M:\c# net\final\project c#\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+M:\c# net\final\project c#\BL\obj\Debug\BL.csproj.CopyComplete
+M:\c# net\final\project c#\BL\obj\Debug\BL.dll
+M:\c# net\final\project c#\BL\obj\Debug\refint\BL.dll
+M:\c# net\final\project c#\BL\obj\Debug\BL.pdb
+M:\c# net\final\project c#\BL\obj\Debug\ref\BL.dll
